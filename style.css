@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background: #eff0eb;
+    font-family: "open sans"
+    
+}
+body {
+    text-align: center;
+    color: white;
+}
+
+.title-logo {
+    background: #303935;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "open sans";
+    width: 100%;
+    height: 130px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 4em;
+}
+
+.title-header {
+    background: #303935;
+    display: inline-block;
+    position: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:60px;
+    text-align: center;
+    font-size: 0.5em;
+}
+
+.iphone-title-1 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background-color: #303935;
+    color: white;
+}
+
+.iphone-title-2 {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #303935;
+    color: white;
+}
+
+.inline-navigation-backboard {
+    background: #636a67;
+    color: white;
+    padding: 0, 50%, 0, 50%;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.inline-navigation-button {
+    display: inline-block;
+    background-color: #636a67;
+    color: white;    
+    margin: 0;
+    padding: 15px 40px 15px 40px;
+}
+
+.product-introduction-container {
+    display: inline-block;
+    position: center;
+    background-color: #eff0eb;          
+    justify-content: center;           
+    align-items: center;           
+    text-align: center;
+    width: 50%;
+    height: 100px;
+    border: tomato solid;
+    padding: 60px;
+    margin: 0, 50%, 0, 50%;
+    color: black;
+    font-weight: bold;
+}
+.size-container {
+    display: inline-block;
+    position: center;
+    background-color: #eff0eb;           
+    justify-content: center;         
+    align-items: center;          
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    border: tomato solid;
+    padding: 60px;
+    margin: 0, 50%, 0, 50%;
+    color: black;
+    font-weight: bold;
+}
+
+.size-available {
+    display: inline-block;
+    position: center;
+    background-color: #eff0eb;          
+    justify-content: center;           
+    align-items: center;          
+    text-align: center;
+    width: 50%;
+    height: 30px;
+    float: top;
+    border: tomato solid;
+    padding: 0;
+    margin: 20px, 50%, 100px, 50%;
+    color: black;
+    font-weight: bold;
+}
+
+.tb50margin {
+    display: block;
+    margin: 30px 0px 30px 0px;
+    border: tomato;
+    width: 50%;
+    height: 20px;
+    
+}
+    
+
+.size-option-1 {
+    display: inline-block;
+    float: left;
+    background-color: #636a67;
+    width: 30%;
+    height: 40px;
+    color: white;    
+    margin: 0;
+    padding: 15px 30px 5px 30px;
+    border: tomato solid;
+}
+
+.size-option-2 {
+    display: inline-block;
+    float: right;
+    background-color: #636a67;
+    width: 30%;
+    height: 40px;
+    color: white;    
+    margin: 0;
+    padding: 15px 30px 5px 30px;
+    border: tomato solid;
+}
+
+
+.product-image {
+
+.product-introduction {
+
+} 
+.product-description {
+    display: inline;
+    border: tomato solid;
+    float: Right;
+    width: 50%;
+    margin: 0;
+    height: 600px;
+    text-align: left;
+    padding: 10px;
+    color: black;
+}
+
+.product-spec{
+
+}
+
+.reviews {}
+
+.purchase
+
+.website-footer {
+    display: inline;
+    border: tomato solid;
+    background: black;
+    padding: 0;
+    height:200px;
+    width: 100%;
+    margin-top: 10px dashed black;
+    border: 5px solid black;
+    float: bottom;
+    color: white;
+    justify-content: center;           
+    align-items: center;   
+}
