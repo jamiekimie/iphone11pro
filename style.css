@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
 * {
-    margin: 0;
-    padding: 0;
     list-style: none;
     text-decoration: none;
-    background: #eff0eb;
     font-family: "open sans"
-    
-}
+    }
+
 body {
     text-align: center;
     color: white;
-}
+    }
+
+/* TITLE PANEL */
 
 .title-logo {
     background: #303935;
@@ -27,177 +26,216 @@ body {
     padding: 0;
     color: white;
     font-size: 4em;
-}
+    }
 
-.title-header {
+.title-panel {
+    display flex;
     background: #303935;
-    display: inline-block;
-    position: center;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height:60px;
-    text-align: center;
-    font-size: 0.5em;
-}
-
-.iphone-title-1 {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 30px;
-    background-color: #303935;
     color: white;
-}
+    font-family: "open sans";
+    margin: 0;
+    }
 
-.iphone-title-2 {
-    display: inline-block;
+
+.title-panel-logo {
+    display: flex;
+    background: #303935;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-    background-color: #303935;
-    color: white;
-}
+    padding: 0.5em;
+    font-size: 5em;
+    }
 
-.inline-navigation-backboard {
+.title-panel-header {
+    display: flex;
+    flex-direction: column;
+    background: #303935;
+    justify-content: center;
+    font-size: 1em;
+    justify-content: space-evenly;
+    padding: 2em;
+    }
+
+.title-panel-header-text {
+    padding: 0.5em;
+    }
+
+/* NAVIATION BAR */
+
+.navigation {
+    display: flex;
     background: #636a67;
     color: white;
-    padding: 0, 50%, 0, 50%;
-    width: 100%;
-    height: 60px;
+    flex-direction: row;
+    padding: .5em;
+    /*height: 60px;*/
     display: flex;
     justify-content: center;
 }
 
 .inline-navigation-button {
     display: inline-block;
+    flex-direction: row;
+    justify-content: center;
     background-color: #636a67;
-    color: white;    
     margin: 0;
     padding: 15px 40px 15px 40px;
 }
 
+.navigation-button {
+    color: whhite;
+    padding: 0.5em 2.5em;
+    text-decoration: none;
+    }
+
+
+a:visited {
+    color: white
+    }
+
+a:hover {
+    color: tomato
+    }
+
+/* PRODUCTION INTRODUCTION */
+
 .product-introduction-container {
-    display: inline-block;
-    position: center;
-    background-color: #eff0eb;          
-    justify-content: center;           
-    align-items: center;           
-    text-align: center;
-    width: 50%;
-    height: 100px;
-    border: tomato solid;
-    padding: 60px;
-    margin: 0, 50%, 0, 50%;
-    color: black;
-    font-weight: bold;
-}
-.size-container {
-    display: inline-block;
-    position: center;
-    background-color: #eff0eb;           
-    justify-content: center;         
-    align-items: center;          
-    text-align: center;
-    width: 50%;
-    height: 200px;
-    border: tomato solid;
-    padding: 60px;
-    margin: 0, 50%, 0, 50%;
-    color: black;
-    font-weight: bold;
-}
+    display: flex;
+    flex-direction: column;
+    padding: 5em 10em;
+    /*width: 50%;
+    height: 100px;*/
+    border: none;
+    }
 
-.size-available {
-    display: inline-block;
-    position: center;
-    background-color: #eff0eb;          
-    justify-content: center;           
-    align-items: center;          
+.product-introduction-text {
+    padding: 2.5em 0em;
+    display: flex;
     text-align: center;
-    width: 50%;
-    height: 30px;
-    float: top;
-    border: tomato solid;
+    justify-content: center;
+    color: black;
+    line-height: 2em;
+    }
+
+section p {
+    font-style: italic;
+    }
+
+/* IPHONE OPTION*/
+
+.y-container {
+    display: flex;
+    flex-direction: column;
+    background: #7a8680;
+    border: #7a8680;
+    padding: 1em;
+    }
+
+.y-row {
+    padding: 0.5em 0em;
+    display: flex;
+    justify-content: center;
+    }
+
+.y-row:first-child {
+    padding-bottom: .5em;
+    }
+
+.y-row:last-child {
+    padding-top: .5em;
+    }
+
+.y-option {
+    background-color: #7a8680;
+    padding: .2em 1em;
+    }
+
+.y-space-between {
+    justify-content: space-evenly;
+    }
+
+/* IMAGE & DESCRIPTION */
+
+.image-description-container {
+    display: flex;
+    flex-direction: row;
     padding: 0;
-    margin: 20px, 50%, 100px, 50%;
-    color: black;
-    font-weight: bold;
-}
+    justify-content: space-evenly;
+    }
 
-.tb50margin {
+.image-container {
     display: block;
-    margin: 30px 0px 30px 0px;
-    border: tomato;
+    flex-direction: column;
+    padding: 3em 5em 3em 10em;
     width: 50%;
-    height: 20px;
-    
-}
-    
+    justify-content: center;
+    flex-direction: row;
+    }
 
-.size-option-1 {
-    display: inline-block;
-    float: left;
-    background-color: #636a67;
-    width: 30%;
-    height: 40px;
-    color: white;    
-    margin: 0;
-    padding: 15px 30px 5px 30px;
-    border: tomato solid;
-}
-
-.size-option-2 {
-    display: inline-block;
-    float: right;
-    background-color: #636a67;
-    width: 30%;
-    height: 40px;
-    color: white;    
-    margin: 0;
-    padding: 15px 30px 5px 30px;
-    border: tomato solid;
-}
-
-
-.product-image {
-
-.product-introduction {
-
-} 
-.product-description {
-    display: inline;
-    border: tomato solid;
-    float: Right;
+.description-container {
+    display: flex;
     width: 50%;
-    margin: 0;
-    height: 600px;
-    text-align: left;
-    padding: 10px;
+    justify-content: center;
+    padding: 3em 5em 3em 10em;
+    flex-direction: row;
     color: black;
-}
+    line-height: 1.5em;
+    }
 
-.product-spec{
+.iphone-front {
+    padding: 3em 5em;
+    width: 100%;
+    height: 100%;
+    }
 
-}
+.feature-heading {
+    margin: 2em;
+    font-size: 1.5em;
+    color: tomato;
+    }
 
-.reviews {}
+/* FINAL PURCHASE */
 
-.purchase
+.final-purchase {
+    flex-direction: row;
+    display: flex;
+    padding: 3em;
+    justify-content: center;
+    background: #7a8680;
+    }
+
+.final-purchase-text {
+    color: black;
+    padding: 2em 2em;
+    font-weight: 900;
+    }
+
+.a:hover {
+    color: tomato;
+    }
+
+/* FOOTER */
 
 .website-footer {
-    display: inline;
-    border: tomato solid;
-    background: black;
-    padding: 0;
-    height:200px;
-    width: 100%;
-    margin-top: 10px dashed black;
-    border: 5px solid black;
-    float: bottom;
-    color: white;
-    justify-content: center;           
-    align-items: center;   
+    flex-direction: column;
+    display: flex;
+    padding: 5em 0em 5em 0em;
+    justify-content: center;
+    background-color: #303935;
+    }
+
+.social-media {
+    display: flex;
+    padding: 30em 0em 10em 0em;
+    text-align: center;
+    background-color: #303935;
+    font-size: 0.5em;
+}
+
+.reference {
+    display: flex;
+    padding: 5em 0em 2em 0em;
+    text-align: center;
+    justify-content: center;
+    background-color: #303935;
+    font-size: 0.7em;
 }
